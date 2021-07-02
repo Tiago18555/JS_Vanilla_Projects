@@ -1,0 +1,39 @@
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 200);
+}
+
+.container{
+    height: 250px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slot{
+    height: 180px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: auto;
+}
+
+.result{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 200);
+    padding-top: 10px;
+}
+
+.slotLabel{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#resultLabel{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(233, 70, 10);
+}

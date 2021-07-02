@@ -1,0 +1,26 @@
+#filecontents {
+	border: solid 2px grey;
+	border-radius: 5px;
+	overflow-y: scroll;
+	height: 400px;
+	padding: 20px;
+	background-color: #000;
+	color: #eee;
+}
+
+.search-bar{
+	display: flex;
+	margin-bottom: 50px;
+	justify-content:space-around;
+	width: 100%;
+}
+
+.result-search{
+	border: solid 2px grey;
+	border-radius: 5px;
+	overflow-y: scroll;
+	height: 400px;
+	padding: 20px;
+	background-color: #000;
+	color: #eee;
+}

@@ -1,0 +1,99 @@
+p.cell,
+p.dob.age,
+p.dob.date(AAAA-MM-DDTHH:MM:SS:SSSZ),
+p.email,
+p.gender,
+p.id.name,
+p.location.city,
+p.location.country,
+p.location.postcode,
+p.location.state,
+p.location.street.name,
+p.location.street.number,
+p.login.md5,
+p.login.password,
+p.login.salt,
+p.login.sha1,
+p.login.sha256,
+p.login.username,
+p.login.uuid,
+p.name.first,
+p.name.last,
+p.name.title,
+p.nat,
+p.phone,
+p.picture.large,
+p.picture.medium,
+p.picture.thumbnail,
+p.registered.age,
+p.registered.date
+
+
+
+
+
+
+
+
+
+var ref = {
+	'nome': `${ p.name.first } ${ p.name.last }`,
+	'celular': p.cell,
+	'idade': p.dob.age,
+	'nascimento': p.dob.date,//(AAAA-MM-DDTHH:MM:SS:SSSZ),
+	'email': p.email,
+	'gênero': p.gender,
+	'cidade': p.location.city,
+	'país': p.location.country,
+	'cep': p.location.postcode,
+	'estado': p.location.state,
+	'rua': p.location.street.name,
+	'numero': p.location.street.number,
+	'login-md5': p.login.md5,
+	'senha': p.login.password,
+	'login-sha1': p.login.sha1,
+	'login-sha256': p.login.sha256,
+	'login': p.login.username,
+	'título': p.name.title,
+	'naturalidade': p.nat,
+	'telefone': p.phone,
+	'foto-grande': p.picture.large,
+	'foto': p.picture.medium,
+	'foto-pequena': p.picture.thumbnail
+};
+
+
+((label>input:checkbox)+br)*23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

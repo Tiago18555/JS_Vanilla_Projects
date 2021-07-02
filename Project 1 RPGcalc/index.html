@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROLE OS DADOS</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <div class="header"></div>
+
+    <div class="addDice">
+
+        <button class="btnAddDice" onclick="addDice('d4')">D4</button>
+        <button class="btnAddDice" onclick="addDice('d6')">D6</button>
+        <button class="btnAddDice" onclick="addDice('d8')">D8</button>
+        <button class="btnAddDice" onclick="addDice('d10')">D10</button>
+        <button class="btnAddDice" onclick="addDice('d20')">D20</button>
+        <button class="btnAddDice" onclick="addDice('d100')">D100</button>
+
+        <input type="text" id="newValue">
+
+        <button id="addFixValue">ADD</button>
+        <button id="submit">ROLL</button>
+
+    </div>
+
+    <div class="container">
+
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        <div class="slot"><p class="slotLabel"></p></div>
+        
+    </div>
+    <div class="result">
+        <p id="resultLabel">
+
+        </p>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
